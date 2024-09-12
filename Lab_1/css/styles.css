@@ -1,0 +1,15 @@
+@import "normalize_min.css";
+
+@import "globals.css";
+
+@import "header.css";
+
+@import "hero.css";
+
+@import "first_section.css";
+
+@import "second-section.css";
+
+@import "third-section(another).css";
+
+@import "footer.css";

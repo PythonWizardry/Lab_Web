@@ -1,0 +1,32 @@
+.second-section{
+  background-color: #26353B;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.second-section__inner{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+
+.second-section__paragraph {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.7;
+  /* padding-bottom: 70px; */
+}
+
+
+.left-side{
+  width: 450px;
+}
+
+.right-side{
+  width: 450px;
+  display: flex;
+  align-items: flex-end;
+}
