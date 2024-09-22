@@ -1,0 +1,105 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+  font-family: "Rubik", "Arial", "sans-serif";
+  color: #fff;
+  background-color: #06dd1b;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 1s ease-in;
+  cursor: pointer;
+}
+
+li {
+  display: block;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  border: 0;
+}
+
+h1{
+  font-family: "Merriweather", "Arial", "sans-serif";
+  color: #fff;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.wrapper{
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.page{
+  flex: 1 1 auto;
+}
+
+[class*="__container"]{
+  max-width: 1170px;
+  margin: 0 auto; 
+  /* padding: 0px 15px; */
+}
+
+/* * ================================= */
+
+@media screen and (max-width: 2560px) {
+  [class*="__container"]{
+      max-width: 1580px;
+  }
+}
+
+/* @media screen and (max-width: 2560px) {
+  [class*="__container"]{
+      max-width: 2070px;
+  }
+} */
+
+/* @media screen and (max-width: 2090px) {
+  [class*="__container"]{
+      max-width: 1580px;
+  }
+}   */
+
+@media screen and (max-width: 1600px) {
+  [class*="__container"]{
+      max-width: 1179.98px;
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
+  [class*="__container"]{
+      max-width: 970px;
+  }
+}
+
+@media screen and (max-width: 990.98px) {
+  [class*="__container"]{
+      max-width: 750px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  [class*="__container"]{
+      max-width: 520px;
+  }
+}
+
+@media screen and (max-width: 537px) {
+  [class*="__container"]{
+      max-width: none;
+      padding: 0px 15px;
+  }
+}

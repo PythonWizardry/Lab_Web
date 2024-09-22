@@ -1,0 +1,271 @@
+/* * =========================== */
+/* * FIRST SECTION */
+
+.first-section {
+  background-color: #fff;
+}
+
+.first-section__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-section__text {
+  width: 450px;
+  padding-bottom: 80px;
+  padding-top: 90px;
+}
+
+.first-section__title {
+  color: #222f33;
+}
+
+.first-section__paragraph {
+  color: #646d70;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 60px;
+}
+
+.first-section__button {
+  width: 110px;
+  background: transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #606b74;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid #606b74;
+  font-family: Rubik;
+  font-weight: 500;
+}
+
+.first-section__button-a {
+  font-size: 14px;
+  color: #606b74;
+}
+
+.first-section__image {
+  display: flex;
+  justify-content: flex-end;
+  width: 400px;
+}
+.first-section__image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 990.98px) {
+  .first-section__image {
+    width: 300px;
+  }
+}
+
+@media (max-width: 767.98px){
+  .first-section__inner{
+    flex-direction: column;
+    align-items: center;
+  }
+  .first-section__text{
+    width: 400px;
+    padding-top: 50px;
+  }
+  .first-section__image {
+    width: 400px;
+  }
+} 
+
+@media screen and (max-width: 537px) {
+  .first-section__image {
+    width: 300px;
+    justify-content: flex-start;
+    /* padding-bottom: 30px; */
+  }
+  .first-section__text{
+    width: 300px;
+  }
+  .first-section__title{
+    font-size: 28px;
+  }
+}
+
+
+/* * ======================== */
+/* * SECOND SECTION */
+
+.second-section{
+  background-color: #26353B;
+  padding-top: 70px;
+  padding-bottom: 70px;
+} 
+
+.second-section__inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.second-section__paragraph {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.7;
+}
+
+
+.left-side{
+  width: 450px;
+}
+
+.right-side{
+  width: 450px;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+@media screen and (max-width: 990.98px) {
+  .left-side{
+    width: 350px;
+  }
+  .right-side{
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .second-section__inner{
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-side{
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 537px) {
+  .left-side{
+    width: 300px;
+  }
+  .right-side{
+    width: 300px;
+  }
+  .second-section{
+    padding-top: 50px;
+  }
+}
+
+
+/* *====================== */
+/* *  THIRD SECTION */
+
+.third-section{
+  background-color: #fff;
+}
+
+.third-section__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .third-section__text div{
+  padding-top: 70px;
+  padding-bottom: 70px;
+} */
+.first-div{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.second-div{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.third-section__img {
+  display: flex; 
+  justify-content: flex-start; 
+  padding-top: 70px;
+  padding-bottom: 70px;
+  width: 400px;
+}
+
+.third-section__img img {
+  width: 100%;
+}
+
+.third-section__h2{
+  color: #222F33;
+  font-family: Merriweather;
+  font-size: 20px;
+  font-weight: 900;
+  width: 180px;
+  margin-left: 90px;
+}
+
+.third-section__p {
+  color: #646D70;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  opacity: 0.7;
+  margin-bottom: 40px;
+  width: 180px;
+  margin-left: 90px;
+}
+
+.third-section__text{
+  display: flex;
+}
+
+
+@media screen and (max-width: 990.98px) {
+  .third-section__text{
+    column-gap: 50px;
+  }
+  .third-section__h2{
+    margin-left: 0px;
+  }
+  .third-section__p {
+    margin-left: 0px;
+  }
+  .third-section__img{
+    width: 300px;
+    /* padding-right: 20px; */
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .third-section__inner{
+    flex-direction: column;
+    align-items: center;
+  }
+  .third-section__img{
+    width: 400px;
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 537px) {
+  .third-section__text{
+    flex-direction: column;
+    align-items: center;
+  }
+  .third-section__img{
+    width: 300px;
+  }
+  .second-div{
+    padding-top: 0px;
+  }
+  .first-div{
+    padding-bottom: 0px;
+  }
+  .third-section__h2{
+    width: 230px;
+  }
+  .third-section__p {
+    width: 230px;;
+  }
+}
