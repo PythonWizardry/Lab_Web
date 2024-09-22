@@ -1,2 +1,2 @@
-# Lab_Web
- Web-development at the IOT 
+# Lab_1
+Created a landing page
