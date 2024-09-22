@@ -1,2 +1,2 @@
-# Lab_Web
- Web-development at the IOT 
+# Lab_2
+Improved a landing page by adding full responsiveness and some animation.
