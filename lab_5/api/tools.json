@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Stihl MS 250",
+    "description": "A well-balanced and easy-to-handle chainsaw designed for occasional use. Offers good performance and value for money.",
+    "power": 2.8,
+    "chainRevolutions": 11000,
+    "price": 500,
+    "imagelink": "../images/modern.jpg",
+    "id": "387000e1-92f2-11ef-bb54-078543953cf3"
+  },
+  {
+    "name": "Echo CS-310",
+    "description": "A lightweight and maneuverable chainsaw ideal for pruning and trimming. Features a low-emission engine and a comfortable ergonomic design.",
+    "power": 2.8,
+    "chainRevolutions": 12000,
+    "price": 450,
+    "imagelink": "../images/powerful.jpg",
+    "id": "387000e2-92f2-11ef-bb54-078543953cf3"
+  },
+  {
+    "name": "Makita EA3600F1",
+    "description": "A powerful electric chainsaw with a long-lasting battery. Suitable for various applications, including cutting firewood and limbing.",
+    "power": 3.2,
+    "chainRevolutions": 10500,
+    "price": 700,
+    "imagelink": "../images/small.jpg",
+    "id": "387000e3-92f2-11ef-bb54-078543953cf3"
+  },
+  {
+    "name": "Husqvarna 450",
+    "description": "A reliable and powerful chainsaw suitable for both professionaand homeowner use. Features a durable engine, easy startechnology, and low vibration levels.",
+    "power": 3.5,
+    "chainRevolutions": 10000,
+    "price": 650,
+    "imagelink": "../images/art.jpg",
+    "id": "7cbec190-938e-11ef-aedd-8118c5a4beb8"
+  },
+  {
+    "name": "Oregon 2040",
+    "description": "A budget-friendly chainsaw that offers decent performance for occasional use. Ideal for homeowners and their light-duty tasks.",
+    "power": 2.5,
+    "chainRevolutions": 15000,
+    "price": 300,
+    "imagelink": "../images/vintage_.jpg",
+    "id": "7cbec190-938e-11ef-aedd-8115hjd4beb8"
+  },
+  {
+    "name": "Husqvarna 450",
+    "description": "fhdgfhgfdhgfhgfdh",
+    "power": 2,
+    "chainRevolutions": 14000,
+    "price": 100,
+    "id": "0618f650-9492-11ef-a811-3b63ce1da6f5",
+    "imagelink": "../images/art.jpg"
+  }
+]
