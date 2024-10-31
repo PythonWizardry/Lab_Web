@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🧙‍♂️ Create Page 🧙‍♂️</title>
+
+    <!-- * Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--* my css files and JS-->
+    <link rel="stylesheet" href="../css/create&edit.css" />
+    <!-- <script src="main.js"></script> -->
+  </head>
+  <body>
+    <section class="hero">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__left-side">
+            <nav class="header__nav">
+              <ul class="nav-links">
+                <li><p class="logo">My Shop</p></li>
+                <li class="header__nav-item"><a href="index.html">My Tools</a></li>
+                <li class="header__nav-item"><a href="create_page.html">Create Tool</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div class="hero__inner">
+        <div class="hero__container" id="create-tool">
+          <h1>Create Tool</h1>
+          <form id="create-tool-form">
+            <div class="form-group">
+              <label for="tool-type">Tool Type</label>
+              <select id="tool-type" name="tool-type" required>
+                  <option value="">Select Type</option>
+                  <option value="Husqvarna 450">Husqvarna 450</option>
+                  <option value="Stihl MS 250">Stihl MS 250</option>
+                  <option value="Echo CS-310">Echo CS-310</option>
+                  <option value="Makita EA3600F1">Makita EA3600F1</option>
+                  <option value="Oregon 2040">Oregon 2040</option>
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea id="description" name="description" required minlength="10" maxlength="500"></textarea>
+            </div>
+            <h2>Main characteristics</h2>
+            <div class="form-group" id="characteristics">
+                <div>
+                  <label for="power">Power</label>
+                  <input type="number" id="power" name="power" required min="0" step="0.1">
+                </div>
+                <div>
+                  <label for="chainRevolutions">Chain-revolutions</label>
+                  <input type="number" id="chainRevolutions" name="chainRevolutions" required min="0" step="500">
+                </div>
+            </div>
+            <div class="form-group">
+              <label for="price">Total price($)</label>
+              <input type="number" id="price" name="price" required min="0" step="50">
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-message"></p>
+        </div>
+      </div>
+
+    <script type="module" src="../JS/create.js"></script>
+  </body>
+</html>

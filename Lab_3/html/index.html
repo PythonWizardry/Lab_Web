@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🧙‍♂️ Third Lab 🧙‍♂️</title>
+
+    <!-- * Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" 
+      rel="stylesheet"
+    />
+
+    <!--* my css files and JS-->
+    <link rel="stylesheet" href="../css/main.css" />
+    <!-- <script src="main.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
+  </head>
+  <body>
+    <section class="hero">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__left-side">
+            <nav class="header__nav">
+              <ul class="nav-links">
+                <li><p class="logo">My Shop</p></li>
+                <li class="header__nav-item"><a href="index.html">My Tools</a></li>
+                <li class="header__nav-item"><a href="create_page.html">Create Tool</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__right-side">
+            <input id="search-input" type="text" class="form-control" placeholder="Type Somethig">
+            <a href="" id="search-btn" class="button-search">Search</a>
+            <a href="" id="clear-btn" class="button-clear">Clear</a>
+          </div>
+        </div> 
+      </header>
+      <div class="hero__inner">
+        <div class="hero__container">
+          <div class="manage-settings">
+            <h1>
+              Manage Tools
+            </h1>
+            <div class="controls">
+              <div class="sort-control">
+                <label for="sort-toggle">Sort by the most expensive tools</label>
+                <input type="checkbox" id="sort-toggle">
+              </div>
+              <div class="price-counter">
+                <p>Count total cost:</p>
+                <div class="buttons">
+                  <a id="count-btn">Count</a>
+                  <a id="clear-btn_another">Clear</a>
+                </div>
+                <p id="another_p">Total cost: <span id="total-price">$0</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="tool-grid">
+
+          </div> 
+        </div>
+      </div>
+    </section>
+    <script type="module" src="../JS/main.js"></script>
+  </body>
+</html>
