@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Stihl MS 250",
+    "description": "A well-balanced and easy-to-handle chainsaw designed for occasional use. Offers good performance and value for money.",
+    "power": 2.8,
+    "chainRevolutions": 11000,
+    "price": 500,
+    "imagelink": "Modern",
+    "id": "1"
+  },
+  {
+    "name": "Echo CS-310",
+    "description": "A lightweight and maneuverable chainsaw ideal for pruning and trimming. Features a low-emission engine and a comfortable ergonomic design.",
+    "power": 2.8,
+    "chainRevolutions": 12000,
+    "price": 450,
+    "imagelink": "Powerful",
+    "id": "2"
+  },
+  {
+    "name": "Makita EA3600F1",
+    "description": "A powerful electric chainsaw with a long-lasting battery. Suitable for various applications, including cutting firewood and limbing.",
+    "power": 3.2,
+    "chainRevolutions": 10300,
+    "price": 700,
+    "imagelink": "Small",
+    "id": "3"
+  },
+  {
+    "name": "Husqvarna 450",
+    "description": "A reliable and powerful chainsaw suitable for both professionaand homeowner use. Features a durable engine, easy start technology, and low vibration levels.",
+    "power": 3.5,
+    "chainRevolutions": 10200,
+    "price": 650,
+    "imagelink": "Art",
+    "id": "4"
+  },
+  {
+    "name": "Oregon 2040",
+    "description": "A budget-friendly chainsaw that offers decent performance for occasional use. Ideal for homeowners and their light-duty tasks.",
+    "power": 2.5,
+    "chainRevolutions": 15000,
+    "price": 300,
+    "imagelink": "Vintage",
+    "id": "5"
+  },
+  {
+    "name": "Ryobi RCS1835B",
+    "description": "A compact and battery-powered chainsaw that’s perfect for small tasks around the garden. Known for its lightweight design and ease of use.",
+    "power": 1.8,
+    "chainRevolutions": 9000,
+    "price": 350,
+    "imagelink": "Powerful",
+    "id": "6"
+  },
+  {
+    "name": "DeWalt DCCS670X1",
+    "description": "High-performance, cordless electric chainsaw with a brushless motor for greater efficiency and runtime. Ideal for heavy-duty cutting tasks.",
+    "power": 3.0,
+    "chainRevolutions": 10500,
+    "price": 750,
+    "imagelink": "Art",
+    "id": "7"
+  },
+  {
+    "name": "Greenworks 80V Chainsaw",
+    "description": "An eco-friendly, battery-powered chainsaw with an 80V motor. Delivers gas-like power without the noise and emissions.",
+    "power": 2.9,
+    "chainRevolutions": 12500,
+    "price": 600,
+    "imagelink": "Modern",
+    "id": "8"
+  },
+  {
+    "name": "Poulan Pro PR5020",
+    "description": "A rugged gas-powered chainsaw, great for farm or ranch work. Comes with an automatic oiler and easy-start system.",
+    "power": 3.5,
+    "chainRevolutions": 10200,
+    "price": 550,
+    "imagelink": "Vintage",
+    "id": "9"
+  },
+  {
+    "name": "Black+Decker LCS1240",
+    "description": "Compact and convenient for light-duty work, this cordless electric chainsaw offers solid performance with minimal maintenance.",
+    "power": 2.0,
+    "chainRevolutions": 8500,
+    "price": 400,
+    "imagelink": "Small",
+    "id": "10"
+  },
+  {
+    "name": "Jonsered CS2245",
+    "description": "A professional-grade chainsaw with anti-vibration technology, suitable for continuous work in challenging environments.",
+    "power": 3.8,
+    "chainRevolutions": 9800,
+    "price": 680,
+    "imagelink": "Art",
+    "id": "11"
+  },
+  {
+    "name": "Worx WG384",
+    "description": "A dual-battery cordless chainsaw known for its compact size and powerful motor. Great for DIY enthusiasts tackling medium-duty tasks.",
+    "power": 2.6,
+    "chainRevolutions": 11500,
+    "price": 420,
+    "imagelink": "Modern",
+    "id": "12"
+  },
+  {
+    "name": "Hitachi CS51EAP",
+    "description": "Gas-powered chainsaw with a professional-grade engine, delivering outstanding performance for demanding jobs.",
+    "power": 4.1,
+    "chainRevolutions": 10800,
+    "price": 800,
+    "imagelink": "Powerful",
+    "id": "13"
+  },
+  {
+    "name": "Remington RM4216 Rebel",
+    "description": "A sturdy gas-powered chainsaw with quick-start technology and anti-vibration features. Ideal for tough outdoor tasks.",
+    "power": 3.4,
+    "chainRevolutions": 10000,
+    "price": 480,
+    "imagelink": "Small",
+    "id": "14"
+  },
+  {
+    "name": "Craftsman CMCCS660E1",
+    "description": "Cordless electric chainsaw designed for easy handling and smooth cuts. A great choice for maintaining smaller yards.",
+    "power": 2.4,
+    "chainRevolutions": 9200,
+    "price": 390,
+    "imagelink": "Vintage",
+    "id": "15"
+  }
+]

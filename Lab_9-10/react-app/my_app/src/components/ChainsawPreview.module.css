@@ -1,0 +1,17 @@
+.chainsaw_preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.chainsaw_img {
+    width: 70%;
+    border-radius: 10%;
+}
+
+.chainsaw_text {
+    width: 70%;
+    padding-top: 15px;
+}

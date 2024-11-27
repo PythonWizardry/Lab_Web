@@ -1,0 +1,77 @@
+.chainsaw_cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10%;
+    border: 1px solid rgb(202, 186, 17);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.chainsaw_img {
+    width: 70%;
+    border-radius: 10%;
+}
+
+.chainsaw_text {
+    width: 90%;
+    padding-top: 15px;
+}
+
+.chainsaw_text > h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.for_price{
+    display: flex;
+    font-weight: 700;
+    /* width: 90%; */
+    padding-bottom: 20px;
+}
+
+.dollars {
+    width: 180px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card_btn {
+    color: #fff;
+    background-color: rgb(202, 186, 17);
+    border-radius: 10px;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.price_and_btn {
+    padding-top: 15px;
+}
+
+.for_charasteristics p{
+    padding-inline-start: 0px;
+}
+
+
+.charasteristics {
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 15px;
+
+    li {
+        display: list-item;
+    }
+}
+
+.for_charasteristics p{
+    padding-inline-start: 0px;
+}
+
+.just_p {
+    width: 90%;
+    padding-top: 10px;
+    font-weight: 500;
+}
+

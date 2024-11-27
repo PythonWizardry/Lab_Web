@@ -1,0 +1,86 @@
+.cart {
+    padding-left: 50px; padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart_header {
+    padding-top: 20px; padding-bottom: 20px;
+}
+
+.cart_list {
+    display:flex;
+    margin: 0, auto;
+    flex-direction: column;
+    width: 80%;
+}
+
+.cart_total__price {
+    width: 80%;
+    text-align: right;
+
+    padding-top: 25px; padding-bottom: 25px;
+}
+
+.cart_links {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 80%;
+}
+
+.cart_back__button {
+    padding-left: 30px; padding-right: 30px;
+    padding-top: 10px; padding-bottom: 10px;
+    border: 2px solid rgb(202, 186, 17);
+    border-radius: 13px;
+    color: black;
+    transition: all ease-in-out 0.1s;
+}
+
+.cart_back__button:hover {
+    background-color: rgb(159, 148, 21);
+}
+
+.cart_continue__button {
+    padding-left: 30px; padding-right: 30px;
+    padding-top: 10px; padding-bottom: 10px;
+    border: 2px solid rgb(202, 186, 17);
+    border-radius: 13px;
+    color: black;
+    transition: all ease-in-out 0.1s;
+}
+
+.cart_continue__button:hover {
+    background-color: rgb(159, 148, 21);
+}
+
+.cart_empty__text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/* *Napoleon */
+
+.wrong_item {
+    img{
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin: 0 auto;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.meme_text{
+    font-size: 35px;
+    padding-top: 40px;
+}

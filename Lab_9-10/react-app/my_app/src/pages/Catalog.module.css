@@ -1,0 +1,43 @@
+.catalog{
+    padding-bottom: 150px;
+}
+
+.top_part{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(202, 186, 17);;
+} 
+
+.filters__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filters {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 30px;
+} 
+
+.apply_btn {
+    padding: 10px 40px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: rgb(202, 186, 17);
+    color: white;
+    transition: 0.1s all ease-in-out;
+}
+
+.apply_btn:hover{
+    background-color: rgb(159, 148, 21);
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding-top: 80px;
+}
