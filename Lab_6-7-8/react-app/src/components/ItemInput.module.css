@@ -1,0 +1,13 @@
+.item_input {
+    padding: 7px;
+    width: 250px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    transition: all 0.1s ease-in-out;
+}
+
+.item_input:hover {
+    border: 1px solid rgb(202, 186, 17);
+}

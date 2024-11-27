@@ -1,0 +1,87 @@
+.main__container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+
+    img {
+        width: 30%;
+        border-radius: 10%;
+    }
+
+}
+
+.context { 
+    width: 50%;
+
+    h2 {
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+
+    p {
+        font-size: 25px;
+        padding-bottom: 40px;
+    }
+}
+
+label {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.fields {
+    display: flex;
+    column-gap: 60px;
+}
+
+.countable_field, .selectable_field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.item_button {
+    padding-left: 30px; padding-right: 30px;
+    padding-top: 10px; padding-bottom: 10px;
+    border: 2px solid rgb(202, 186, 17);
+    border-radius: 13px;
+    color: black;
+    transition: all ease-in-out 0.1s;
+}
+
+.item_button:hover{
+    background-color: rgb(159, 148, 21);
+}
+
+/* *Napoleon */
+
+.wrong_item {
+    img{
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin: 0 auto;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.meme_text{
+    font-size: 35px;
+    padding-top: 40px;
+}
