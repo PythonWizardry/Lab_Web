@@ -1,0 +1,124 @@
+.checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkout__title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 15px;
+    color: rgb(202, 186, 17);
+}
+
+.checkout__form {
+    margin-top: 50px;;
+}
+
+.checkout__form_name,
+.checkout__form_email_phone,
+.checkout__form_address {
+    margin-bottom: 15px;
+}
+
+
+.checkout__form input {
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    color: black;
+}
+
+.checkout__form_name {
+    display: flex;
+}
+
+.checkout__form_email_phone {
+    display: flex;
+}
+
+.checkout__form_first_name, .checkout__form_email {
+    margin-right: 30px;
+}
+
+.checkout__form_address input {
+    width: 97%;
+}
+
+.buttons__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px auto;
+}
+.buttons__container a {
+    height: 50px;
+    width: 140px;
+    padding: 0;
+}
+.continue__button{
+  padding-left: 30px; padding-right: 30px;
+  padding-top: 15px; padding-bottom: 15px;
+  border: 2px solid rgb(202, 186, 17);
+  border-radius: 13px;
+  color: black;
+  transition: all ease-in-out 0.1s;
+  font-size: 17px;
+}
+.go_back_button {
+  padding-left: 30px; padding-right: 30px;
+  padding-top: 15px; padding-bottom: 15px;
+  border: 2px solid rgb(202, 186, 17);
+  border-radius: 13px;
+  color: black;
+  transition: all ease-in-out 0.1s;
+  font-size: 17px;
+}
+.buttons__container button:hover {background-color: rgb(159, 148, 21);}
+
+.buttons__container button:active {
+  background-color: rgb(159, 148, 21);
+  transform: translateY(4px);
+}
+
+.checkout__form input {
+  background-color: white;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+
+
+/* * something */
+
+.checkout__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px; 
+  width: 500px; 
+  margin: 0 auto; 
+  padding: 16px; 
+}
+
+.checkout__form_name,
+.checkout__form_email_phone {
+  display: flex;
+  flex-direction: row;
+  gap: 16px; 
+  width: 100%;
+}
+
+.checkout__form_first_name,
+.checkout__form_last_name,
+.checkout__form_email,
+.checkout__form_phone {
+  flex: 1; 
+  width: 100%;
+}
+
+.checkout__form_address {
+  width: 100%; 
+  margin-top: 16px; 
+}

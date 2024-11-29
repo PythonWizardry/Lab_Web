@@ -23,8 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-
 # related to vite
 eslint.config.js
-READMEVITE.md
 vite.config.js
+READMEVITE.md

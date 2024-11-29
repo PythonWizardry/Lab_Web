@@ -5,6 +5,8 @@ import Home from './pages/Home.jsx'
 import Catalog from './pages/Catalog.jsx'
 import Cart from './pages/Cart.jsx'
 import Item from './pages/Item.jsx'
+import CheckOut from './pages/CheckOut.jsx';
+import SuccessPage from './pages/Success.jsx';
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/cart" element={<Cart />} />
           <Route path='/catalog/item/:id' element={<Item/>}/>
+          <Route path='/checkout' element={<CheckOut/>}/>
+          <Route path='/success' element={<SuccessPage/>}/>
         </Routes>
       </Router>
       <Footer />

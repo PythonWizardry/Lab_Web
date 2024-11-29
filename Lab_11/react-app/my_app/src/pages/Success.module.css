@@ -1,0 +1,45 @@
+.success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.success h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.success_text {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.success a {
+    padding: 0;
+
+}
+
+.go_back_button{
+    padding-left: 30px; padding-right: 30px;
+    padding-top: 15px; padding-bottom: 15px;
+    border: 2px solid rgb(202, 186, 17);
+    border-radius: 13px;
+    color: black;
+    transition: all ease-in-out 0.1s;
+    font-size: 15px;
+}
+
+.go_back_button:hover {background-color: rgb(159, 148, 21)}
+
+.go_back_button:active {
+    background-color: rgb(159, 148, 21);
+    transform: translateY(4px);
+}
+
+.button__container {
+    color: black;
+}

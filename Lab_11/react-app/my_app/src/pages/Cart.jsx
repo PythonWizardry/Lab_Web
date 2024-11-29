@@ -48,14 +48,14 @@ function Cart() {
       (<>
       <ul className={styles.cart_list}>
         {cart.map(chainsaw => (<CartListItem chainsaw={chainsaw} imagelink={newGetImage(chainsaw.chainsawImagelink)}
-        key={`${chainsaw.id}-${chainsaw.roomType}`} 
+        key={`${chainsaw.id}-${chainsaw.color}-${chainsaw.warranty}`}
         onPlus={handleIncrement} onMinus={handleDecrement}/>))}
       </ul>
       <h2 className={styles.cart_total__price}>Total price: {totalPrice} $</h2>
       </>)}
       <div className={styles.cart_links}>
         <NavLink className={styles.cart_back__button} to='/catalog'>Back to catalog</NavLink>
-        {cart.length !== 0 && (<NavLink className={styles.cart_continue__button} to='/'>Continue</NavLink>)}
+        {cart.length !== 0 && (<NavLink className={styles.cart_continue__button} to='/checkout'>Continue</NavLink>)}
       </div>
     </div>
   )
